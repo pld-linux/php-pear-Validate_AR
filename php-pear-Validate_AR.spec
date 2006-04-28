@@ -29,9 +29,11 @@ Package contains locale validation for Argentina such as:
 In PEAR status of this package is: %{_status}.
 
 %description -l pl
-Pakiet do sprawdzania poprawno¶ci danych dla Argentyny:
+Pakiet do sprawdzania poprawno¶ci dla Argentyny danych takich jak:
 - kod pocztowy
 - region (prowincje)
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %pear_package_setup
