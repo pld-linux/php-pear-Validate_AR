@@ -5,7 +5,7 @@
 %define		_pearname	Validate_AR
 
 Summary:	%{_pearname} - Validation class for Argentina
-Summary(pl):	%{_pearname} - Klasa sprawdzaj±ca poprawno¶æ dla Argentyny
+Summary(pl.UTF-8):   %{_pearname} - Klasa sprawdzajÄ…ca poprawnoÅ›Ä‡ dla Argentyny
 Name:		php-pear-%{_pearname}
 Version:	0.0.1
 Release:	1
@@ -29,8 +29,8 @@ Package contains locale validation for Argentina such as:
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Pakiet do sprawdzania poprawno¶ci dla Argentyny danych takich jak:
+%description -l pl.UTF-8
+Pakiet do sprawdzania poprawnoÅ›ci dla Argentyny danych takich jak:
 - kod pocztowy
 - region (prowincje)
 
