@@ -5,7 +5,7 @@
 %define		_pearname	Validate_AR
 
 Summary:	%{_pearname} - Validation class for Argentina
-Summary(pl.UTF-8):   %{_pearname} - Klasa sprawdzająca poprawność dla Argentyny
+Summary(pl.UTF-8):	%{_pearname} - Klasa sprawdzająca poprawność dla Argentyny
 Name:		php-pear-%{_pearname}
 Version:	0.0.1
 Release:	1
