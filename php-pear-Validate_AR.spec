@@ -3,16 +3,15 @@
 %define		_subclass	AR
 %define		_status		alpha
 %define		_pearname	Validate_AR
-
 Summary:	%{_pearname} - Validation class for Argentina
 Summary(pl.UTF-8):	%{_pearname} - Klasa sprawdzająca poprawność dla Argentyny
 Name:		php-pear-%{_pearname}
-Version:	0.0.1
-Release:	2
+Version:	0.1.0
+Release:	1
 License:	New BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	7c9e8bdd002cbb611fece3ddc4a697f7
+# Source0-md5:	9244f75107e26fa44025dde20a72fcb8
 URL:		http://pear.php.net/package/Validate_AR/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -43,6 +42,9 @@ Ta klasa ma w PEAR status: %{_status}.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{php_pear_dir}
 %pear_package_install
+
+# don't care for tests
+rm -rf $RPM_BUILD_ROOT%{php_pear_dir}/tests/%{_pearname}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
