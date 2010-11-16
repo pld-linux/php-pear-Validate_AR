@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - Validation class for Argentina
 Summary(pl.UTF-8):	%{_pearname} - Klasa sprawdzająca poprawność dla Argentyny
 Name:		php-pear-%{_pearname}
-Version:	0.1.0
+Version:	0.1.1
 Release:	1
 License:	New BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	9244f75107e26fa44025dde20a72fcb8
+# Source0-md5:	b19ddef01f77441da59176ae9808f360
 URL:		http://pear.php.net/package/Validate_AR/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
