@@ -1,6 +1,5 @@
 %define		_status		alpha
 %define		_pearname	Validate_AR
-%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - Validation class for Argentina
 Summary(pl.UTF-8):	%{_pearname} - Klasa sprawdzająca poprawność dla Argentyny
 Name:		php-pear-%{_pearname}
